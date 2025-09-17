@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
+
+.site-header {
+  display: flex;
+  justify-content: center; /* center logo */
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.site-logo {
+  max-width: 140px;
+  height: auto;
+  display: block;
+  border-radius: 8px; /* optional */
+}
+.logo-img{
+  display: block;
+  margin: 0 auto;
+}
+.header{
+  background-color: beige;
+  padding: 10px 0;
+}
+.header-text{
+  display: inline-block;
+}
+
+.header-text {
+  font-family: "Gluten", cursive;
+  font-optical-sizing: auto;
+}
