@@ -1,31 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
-
-.site-header {
+.header {
   display: flex;
-  justify-content: center; /* center logo */
   align-items: center;
-  margin-bottom: 1rem;
+  justify-content: space-between;
+  background-color: beige;
 }
-
-.site-logo {
-  max-width: 140px;
-  height: auto;
-  border-radius: 8px; /* optional */
-  display: inline-block;
+.logo-container {
+  float: left;
 }
 .logo-img{
-  display: block;
-  margin: 0 auto;
-}
-.header{
-  background-color: beige;
-  padding: 10px 0;
-}
-.header-text{
-  display: inline-block;
+  width: 100px;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
 }
 
-.header-text {
+.header-text-container{
+  display: inline-block;
   font-family: "Gluten", cursive;
-  font-optical-sizing: auto;
+  font-size: 20px; 
+  color: brown;
+  text-align: center;
+  position: relative;
+  margin-right: 100px;
+}
+
+.header-text-container > p{ 
+  font-family: "Gluten", cursive;
+  font-size: 20px; 
+  color: brown;
+  text-align: center;
 }
