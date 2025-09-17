@@ -10,6 +10,8 @@ body{
   align-items: center;
   background-color: beige;
   height: 100px;
+  margin-right: 0%;
+  margin-left: 0%;
 }
 .cake-container{
   float: left;
@@ -28,7 +30,7 @@ body{
   width: 100px;
   height: 100%;
   margin-top: 10px;
-  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 8px;
 }
 
@@ -45,5 +47,7 @@ body{
 }
 hr {
   border: solid 2px brown;
+  margin-right: 0%;
+  margin-left: 0%;
   margin-top: 0%;
 }
