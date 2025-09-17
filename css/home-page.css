@@ -10,8 +10,8 @@
 .site-logo {
   max-width: 140px;
   height: auto;
-  display: block;
   border-radius: 8px; /* optional */
+  display: inline-block;
 }
 .logo-img{
   display: block;
