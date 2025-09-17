@@ -2,11 +2,12 @@
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   background-color: beige;
+  height: 100px;
 }
 .logo-container {
   float: left;
+
 }
 .logo-img{
   width: 100px;
@@ -22,13 +23,6 @@
   font-size: 20px; 
   color: brown;
   text-align: center;
-  position: relative;
-  margin-right: 100px;
-}
-
-.header-text-container > p{ 
-  font-family: "Gluten", cursive;
-  font-size: 20px; 
-  color: brown;
-  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
 }
