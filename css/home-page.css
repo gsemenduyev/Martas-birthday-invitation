@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
-html{
-  
-}
-body{
+
+html {}
+
+body {
   margin: 0;
   padding: 0;
   margin-right: 0%;
@@ -10,6 +10,7 @@ body{
   background-image: url('../assets/background.jpg');
 
 }
+
 .header-container {
   display: flex;
   align-items: center;
@@ -18,39 +19,35 @@ body{
   margin-right: 0%;
   margin-left: 0%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  
+
 }
-.cake-container{
+
+.cake-container {
   float: left;
 }
-.balloon-container{
+
+.balloon-container {
   float: right;
 }
-.cake-img{
+
+.cake-img {
   width: 50px;
   height: 100%;
   margin-top: 10px;
   margin-left: 10px;
   border-radius: 8px;
 }
-.balloon-img{
+
+.balloon-img {
   width: 50px;
   height: 100%;
   margin-top: 10px;
   margin-right: 10px;
   border-radius: 8px;
-  
+
 }
 
-.invitation-body{
-  text-align: center;
-  border-radius: 12px;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 800px;
-  text-decoration: none;
-}
-.header-text-container{
+.header-text-container {
   display: inline-block;
   font-family: "Gluten", cursive;
   color: brown;
@@ -59,54 +56,81 @@ body{
   padding-right: 0%;
   margin-right: auto;
   margin-left: auto;
+  background: linear-gradient(to right, brown, rgb(255, 174, 0), brown, orange, rgb(255, 174, 0), brown);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.footer-map{
+
+.gradient-text {
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(to right, red, orange, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.invitation-body {
+  text-align: center;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  text-decoration: none;
+}
+
+.footer-map {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.footer-directions{
-    margin-right: 20px;
-    margin-left: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+.footer-directions {
+  margin-right: 20px;
+  margin-left: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.footer-directions > a{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
+.footer-directions>a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: clamp(0.6rem, 1.5vw, 1rem) clamp(1rem, 3vw, 1.6rem);
   font-size: clamp(1rem, 2.4vw, 1.2rem);
   min-width: 120px;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.1);
 }
-.footer-registry{
-   display: inline-block;
+
+.footer-registry {
+  display: inline-block;
 
 }
 
-.footer-registry > a{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
+.footer-registry>a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   padding: clamp(0.6rem, 1.5vw, 1rem) clamp(1rem, 3vw, 1.6rem);
   font-size: clamp(1rem, 2.4vw, 1.2rem);
   min-width: 120px;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.1);
-  
+
 }
 
-footer > p{
+footer>p {
   text-align: right;
   padding: 20px;
   margin-top: 20px;
   color: brown;
   font-family: "Gluten", cursive;
-} 
+}
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   background-color: rgba(0, 0, 0, 0.712);
   text-decoration: none;
   color: white;
