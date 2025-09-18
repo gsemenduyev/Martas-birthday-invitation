@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&display=swap');
-
+html{
+  
+}
 body{
   margin: 0;
   padding: 0;
-  background-color: #fff8dc;
-    margin-right: 0%;
+  margin-right: 0%;
   margin-left: 0%;
+  background-image: url('../assets/background.jpg');
+
 }
 .header-container {
   display: flex;
   align-items: center;
-  background-color: beige;
   height: 100px;
   margin-right: 0%;
   margin-left: 0%;
+  border: burlywood 4px   solid;
+  
 }
 .cake-container{
   float: left;
@@ -46,10 +50,4 @@ body{
   padding-right: 0%;
   margin-right: auto;
   margin-left: auto;
-}
-hr {
-  border: solid 2px brown;
-  margin-right: 0%;
-  margin-left: 0%;
-  margin-top: 0%;
 }
