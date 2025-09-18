@@ -31,19 +31,19 @@ body {
 }
 
 .cake-img {
-  width: 50px;
+  width: 100px;
   height: 100%;
   margin-top: 10px;
   margin-left: 10px;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .balloon-img {
-  width: 50px;
+  width: 100px;
   height: 100%;
   margin-top: 10px;
   margin-right: 10px;
-  border-radius: 8px;
+  border-radius: 20px;
 
 }
 
