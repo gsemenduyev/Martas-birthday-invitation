@@ -88,13 +88,15 @@ body {
 }
 
 .footer-directions {
+   display: inline-block;
+   margin-left: 20px;
   margin-right: 20px;
-  margin-left: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
 }
 
-.footer-directions>a {
-  display: inline-flex;
+
+.footer-directions > a {
+  display: inline-flex; /* Add this */
   align-items: center;
   justify-content: center;
   padding: clamp(0.6rem, 1.5vw, 1rem) clamp(1rem, 3vw, 1.6rem);
@@ -103,6 +105,7 @@ body {
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.1);
 }
+
 
 .footer-registry {
   display: inline-block;
