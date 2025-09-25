@@ -146,6 +146,7 @@ a:focus {
 .slider-container {
   
   height: 500px;
+  width: 400px;
   overflow: hidden;
   position: relative;
   margin: 50px auto;
