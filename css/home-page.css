@@ -33,6 +33,14 @@ header {
   width: 100vw;
   margin-top: -20px;
 }
+
+ .logo::before{
+   content: "🥳 ";
+ }
+
+.logo::after{
+   content: "🥳 ";
+ }
 .subtitle {
   font-size: 24px;
   color: brown;
@@ -42,6 +50,7 @@ header {
   margin-left: auto;
   margin-right: 15vw;
   text-align: center;
+  animation: bounce 1.5s infinite;
 }
 
 @keyframes bounce {
