@@ -8,7 +8,12 @@ body {
   text-align: center;
   padding-top: 50px;
   background-image: url('../assets/background.jpg');
-
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 
@@ -34,13 +39,14 @@ header {
   margin-top: -20px;
 }
 
- .logo::before{
-   content: "🥳 ";
- }
+.logo::before {
+  content: "🥳 ";
+}
 
-.logo::after{
-   content: "🥳 ";
- }
+.logo::after {
+  content: "🥳 ";
+}
+
 .subtitle {
   font-size: 24px;
   color: brown;
@@ -64,11 +70,20 @@ header {
     transform: translateY(-10px);
   }
 
-    from {color:rgb(114, 214, 153);}
-  to {color: rgb(216, 230, 217);}
-  to {color: orange;}
+  from {
+    color: rgb(114, 214, 153);
+  }
+
+  to {
+    color: rgb(216, 230, 217);
+  }
+
+  to {
+    color: orange;
+  }
 
 }
+
 .header-container {
   display: flex;
   align-items: center;
